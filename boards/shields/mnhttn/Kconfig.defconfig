@@ -1,20 +1,13 @@
-# Copyright (c) 2022 The ZMK Contributors
+# Copyright (c) 2026 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
 if SHIELD_MNHTTN_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "mnhTTn"
+    default "MNHTTN"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
-endif
-
-if SHIELD_MNHTTN_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "nTThnm"
 
 endif
 
